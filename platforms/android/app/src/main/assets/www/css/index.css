@@ -16,6 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
 body {
     background-color: #232323;
     margin: 0;
@@ -32,7 +33,7 @@ body {
 }
 
 .container {
-    width: 600px;
+    width: 360;
     margin: 20px auto;
 }
 
@@ -82,7 +83,7 @@ button:focus {
 }
 
 #pickedColor {
-    font-size: 62px;
+    font-size: 40px;
 }
 
 button:hover {

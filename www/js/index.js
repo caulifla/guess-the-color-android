@@ -109,6 +109,8 @@ function hideextras() {
 }
 
 function startFresh() { 
+    document.body.style.width = screen.width;
+    var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
     stat.textContent ="";
     h1.style.backgroundColor = "#4286f4";
     target = Math.floor(Math.random() * sqrs);  
